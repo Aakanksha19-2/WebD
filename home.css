@@ -1,0 +1,125 @@
+
+
+
+*{
+    background-color: rgb(27, 26, 25);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: azure;
+}
+.navbar h1{
+        padding-left: 30px;
+        padding-top: 20px;
+        color: chartreuse;
+        font-size:50px;
+        text-indent: 5px;
+        text-decoration:wavy;
+        font-family: 'Hurricane';
+}
+.navbar a{
+    font: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 17px;
+    text-decoration: none;
+    float:left;
+    padding : 14px 17px;
+    overflow: auto;
+
+}
+.btn{
+    float : right;
+}
+.bt1{
+    border-radius: 4px;
+    border-color: white;
+    padding : 14px 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+.bt1:hover{
+    background-color: rgb(241, 120, 40);
+}
+.navbar a:hover{
+    background-color: aqua;
+    color: black;
+}
+
+div.one{
+    background-color:goldenrod;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 5%;
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 90%;
+    
+}
+.one h1{
+    background-color:goldenrod;
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main img{
+        opacity: 25%;
+}
+.l{
+    
+    position: absolute;
+    top: 700px;
+    right: 0px;
+    left: 1200px;
+    bottom: 200px;
+    transform: translate(-50%, -50%);
+    font-size: smaller;
+    margin: 30px 50px;
+    
+}
+.l h1{
+    font-size: xx-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.l p{
+    font-family::'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+
+.a img{
+    padding:  4% 4% 3% 4%;
+}
+.ak{
+    position: absolute;
+    top: 1700px;
+    backface-visibility: visible;
+    margin: 5px 6px 7px;
+}
+
+.ak h2{
+    background-color: rgba(71, 61, 139, 0.555);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.ak p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.links{
+    position: absolute;
+    top: 2500px;
+    padding: 0px 60px 70px 50px;
+    align-items: center;
+    right: 100px;
+}
+.links a :hover{
+    padding: 5% 0% 8% 15px;
+    fill-opacity: calc(1);
+    flood-opacity: var(-50%);
+    opacity: 60%;
+}
+.footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(85, 202, 169);
+    color: white;
+  }
